@@ -1,0 +1,15 @@
+{
+  "domain": "kma_weather",
+  "name": "KMA Weather (기상청 동네예보)",
+  "version": "0.1.0",
+  "documentation": "https://github.com/gamma4d/ha-kma-weather",
+  "issue_tracker": "https://github.com/gamma4d/ha-kma-weather/issues",
+  "codeowners": [
+    "@gamma4d"
+  ],
+  "dependencies": [],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "integration_type": "service"
+}

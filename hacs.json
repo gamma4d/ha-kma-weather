@@ -1,0 +1,5 @@
+{
+  "name": "KMA Weather (기상청 동네예보)",
+  "render_readme": true,
+  "homeassistant": "2024.1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "기상청 날씨 (KMA)",
+        "description": "data.go.kr 단기예보 조회서비스 인증키를 입력하세요. 반드시 '일반 인증키 (Decoding)' 값을 쓰고, 발급 후 1~2시간 지나 활성화된 키여야 합니다. 위치를 비워두면 홈 설정 좌표를 사용합니다.",
+        "data": {
+          "api_key": "인증키 (Decoding)",
+          "name": "이름 (엔티티 슬러그)",
+          "latitude": "위도",
+          "longitude": "경도"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "인증 실패 — '일반 인증키(Decoding)'가 맞는지, 발급 후 1~2시간이 지나 활성화됐는지, 상세기능(초단기실황·초단기예보·단기예보)이 신청됐는지 확인하세요.",
+      "cannot_connect": "data.go.kr 에 연결하지 못했습니다. 네트워크를 확인하고 다시 시도하세요."
+    },
+    "abort": {
+      "already_configured": "이미 같은 이름으로 설정되어 있습니다."
+    }
+  }
+}
