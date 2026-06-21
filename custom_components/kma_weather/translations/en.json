@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KMA Weather (기상청 동네예보)",
+        "description": "Enter your data.go.kr short-term forecast service key. Use the DECODED key ('일반 인증키 Decoding') and wait 1-2 hours after issuance for it to activate. Leave the location blank to use your Home Assistant home coordinates.",
+        "data": {
+          "api_key": "Service key (Decoding)",
+          "name": "Name (entity slug)",
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authentication failed — check that you used the DECODED key, that 1-2 hours have passed since issuance, and that the operations (ultra-now/ultra-forecast/short-forecast) were requested.",
+      "cannot_connect": "Could not reach data.go.kr. Check connectivity and retry."
+    },
+    "abort": {
+      "already_configured": "Already configured with this name."
+    }
+  }
+}
